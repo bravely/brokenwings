@@ -278,6 +278,7 @@ DEPENDENCIES
   guard-jshintrb
   guard-rspec
   guard-rubocop
+  haml
   jquery-rails
   jshintrb
   pg
