@@ -15,6 +15,7 @@ gem 'pry-rails'
 gem 'dotenv-rails'
 gem 'puma'
 gem 'haml'
+gem 'riot_api'
 
 group :development, :test do
   gem 'rspec-rails'
