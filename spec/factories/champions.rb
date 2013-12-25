@@ -2,7 +2,7 @@
 
 FactoryGirl.define do
   factory :champion do
-    name "MyString"
+    name 'MyString'
     riot_id 1
     active false
     free_to_play false

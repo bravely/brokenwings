@@ -1,4 +1,5 @@
 class CreateChampions < ActiveRecord::Migration
+  # rubocop:disable MethodLength
   def change
     create_table :champions do |t|
       t.string :name
@@ -15,4 +16,5 @@ class CreateChampions < ActiveRecord::Migration
       t.timestamps
     end
   end
+  # rubocop:enable MethodLength
 end

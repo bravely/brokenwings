@@ -34,6 +34,7 @@ group :test do
   gem 'webmock'
   gem 'factory_girl_rspec'
   gem 'bundler-audit'
+  gem 'vcr'
 end
 
 group :ct do
