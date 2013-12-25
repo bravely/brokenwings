@@ -58,3 +58,8 @@ RSpec.configure do |config|
   config.include Webrat::Matchers
 
 end
+
+VCR.configure do |c|
+  c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
+  c.hook_into :webmock
+end

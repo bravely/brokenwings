@@ -15,6 +15,7 @@ gem 'pry-rails'
 gem 'dotenv-rails'
 gem 'puma'
 gem 'haml'
+gem 'riot_api'
 
 group :development, :test do
   gem 'rspec-rails'
@@ -33,6 +34,7 @@ group :test do
   gem 'webmock'
   gem 'factory_girl_rspec'
   gem 'bundler-audit'
+  gem 'vcr'
 end
 
 group :ct do
