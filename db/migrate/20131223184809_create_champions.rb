@@ -2,7 +2,7 @@ class CreateChampions < ActiveRecord::Migration
   # rubocop:disable MethodLength
   def change
     create_table :champions do |t|
-      t.string :name
+      t.string :name, null: false
       t.boolean :active
       t.boolean :free_to_play
       t.boolean :ranked_play_enabled

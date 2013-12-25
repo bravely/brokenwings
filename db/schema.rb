@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20131223184809) do
   enable_extension "plpgsql"
 
   create_table "champions", force: true do |t|
-    t.string   "name"
+    t.string   "name",                null: false
     t.boolean  "active"
     t.boolean  "free_to_play"
     t.boolean  "ranked_play_enabled"
