@@ -17,7 +17,9 @@
 //= require ember
 //= require ember-data
 //= require_self
+//= require twitter/bootstrap
 //= require brokenwings
+//= require typeahead.js
 
 // for more details see: http://emberjs.com/guides/application/
 /*jshint -W020 */

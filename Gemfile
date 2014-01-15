@@ -16,6 +16,7 @@ gem 'dotenv-rails'
 gem 'puma'
 gem 'haml'
 gem 'riot_api'
+gem 'twitter-typeahead-rails'
 
 group :development, :test do
   gem 'rspec-rails'
