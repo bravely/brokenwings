@@ -56,6 +56,7 @@ RSpec.configure do |config|
   end
 
   config.include Webrat::Matchers
+  config.include Requests::JsonHelpers, type: :request
 
 end
 
