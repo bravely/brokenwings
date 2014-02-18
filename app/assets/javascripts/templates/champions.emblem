@@ -1,0 +1,5 @@
+h1 Champions
+
+p
+  = name
+  = difficulty_rank

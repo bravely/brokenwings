@@ -3,5 +3,3 @@ nav.navbar.navbar-default.navbar-static-top.navbar-inverse role="navigation"
     a.navbar-brand href="#" BrokenWings.IO
 
   .col-lg-9.col-md-9.col-sm-9.col-xs-9: form: main-search
-    
-    
