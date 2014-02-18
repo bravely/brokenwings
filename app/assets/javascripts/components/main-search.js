@@ -16,7 +16,7 @@ Brokenwings.MainSearchComponent = Ember.Component.extend({
     this.$('#main-search').typeahead([{
       name: 'main-search',
       prefetch: {
-        url: '/api/champions.json',
+        url: '/api/champions/ta.json',
         filter: function(data) {
           return data.champions;
         }

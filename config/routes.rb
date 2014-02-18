@@ -4,7 +4,11 @@ Brokenwings::Application.routes.draw do
 
   namespace :api, defaults: { format: 'json' } do
     scope module: :v1, constraints: ApiConstraints.new(version: 1, default: true) do
-      resources :champions, only: [:index, :show]
+      resources :champions, only: [:index, :show] do
+        collection do
+          get 'ta'
+        end
+      end
     end
   end
   get 'admin/index'
