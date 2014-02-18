@@ -6,6 +6,10 @@ module Api
       def index
         respond_with Champion.all
       end
+
+      def show
+        respond_with Champion.find(params[:id])
+      end
     end
   end
 end
